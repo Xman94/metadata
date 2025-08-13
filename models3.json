@@ -3,7 +3,7 @@
     "order": "a",
     "md5sum": "97463be739b50525df56d33b26b00852",
     "name": "VeilCore",
-    "filename": "VeilCore.gguf",
+    "filename": "mistral-7b-instruct-v0.1.Q4_0.gguf",
     "filesize": "4108916384",
     "requires": "2.5.0",
     "ramrequired": "8",
@@ -543,4 +543,5 @@
     "systemPrompt": "<|im_start|>system\nBelow is an instruction that describes a task. Write a response that appropriately completes the request.<|im_end|>\n",
     "chatTemplate": "{%- for message in messages %}\n    {%- if loop.first and messages[0]['role'] != 'system' %}\n        {{- '<|im_start|>system\\nYou are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n    {{- '<|im_start|>' + message['role'] + '\\n' + message['content'] + '<|im_end|>\\n' }}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}"
   }
+
 ]
