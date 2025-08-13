@@ -3,7 +3,7 @@
     "order": "a",
     "md5sum": "97463be739b50525df56d33b26b00852",
     "name": "VeilCore",
-    "filename": "mistral-7b-instruct-v0.1.Q4_0.gguf",
+    "filename": "VeilCore.gguf",
     "filesize": "4108916384",
     "requires": "2.5.0",
     "ramrequired": "8",
@@ -545,3 +545,4 @@
   }
 
 ]
+
